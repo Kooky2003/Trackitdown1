@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+:root {
+  --color-primary: #9bae8d;
+  --color-highlight: rgb(243, 243, 243);
+  --color-buttonbg: #dadebb;
+  --color-text: #3b6653;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Poppins;
+}
+p {
+  font-weight: 200;
+}
+h1 {
+  font-weight: 700;
+}
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  height: 100vh;
+  width: 100vw;
+}
+
+.col1 {
+  width: 50vw;
+  height: 540px;
+  margin-top: 28px;
+  margin-left: 100px;
+}
+
+.col2 {
+  width: 50vw;
+  height: 540px;
+  margin-top: 28px;
+  margin-right: 12%;
+}
+.formInformation {
+  background-color: var(--color-highlight);
+  height: 525px;
+  width: 545px;
+  margin: 72px 0px 85px 72px;
+  padding: 12px;
+  border-radius: 24px 0px 0px 24px;
+}
+
+span {
+  font-weight: 300;
+}
+.welcomeInfo {
+  text-align: center;
+}
+.welcomeInfo h1 {
+  font-size: 2rem;
+  color: #2a5944;
+  margin-bottom: 8px;
+}
+.container,
+.sign-upContainer p {
+  font-size: 0.8rem;
+}
+
+.box {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.formInformation .info {
+  padding-left: 75px;
+  padding-top: 16px;
+}
+
+input {
+  height: 32px;
+  width: 368px;
+  padding: 2px 4px 2px 4px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  border: 2px solid var(--color-text);
+}
+
+.button {
+  border-radius: 14px;
+  padding: 8px 60px 8px 60px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.CTA {
+  background-color: white;
+  color: black;
+  border: 2px solid var(--color-text);
+}
+
+.CTA:hover {
+  background-color: var(--color-text);
+  color: white;
+}
+
+#forgetPassword,
+.login {
+  margin-bottom: 12px;
+}
+#signup {
+  margin-top: 12px;
+}
+
+/* col2 start */
+
+.col2 {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  background-color: var(--color-text);
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 110px;
+  padding: 24px;
+  border-radius: 0px 24px 24px 0px;
+  background-image: url(taskmanagement.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.signup {
+  display: flex;
+  justify-content: center;
+}
+.sign-upContainer {
+  background-color: var(--color-highlight);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 480px;
+  height: 476px;
+  padding: 34px 20px 34px 20px;
+  margin: 6% 10% 10% 10%;
+  border-radius: 24px;
+}
+.sign-upContainer form info {
+  padding-left: 0px;
+}

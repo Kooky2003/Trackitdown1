@@ -1,0 +1,84 @@
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+      background-color: #f0f0f0;
+    }
+
+    .section {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      padding: 10px 20px;
+      background-color: #dadebb;
+      color: #3b6653;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 1000;
+    }
+
+    .logo img {
+      height: 40px;
+    }
+
+    .links a {
+      padding: 10px 20px;
+      text-decoration: none;
+      color: #3b6653;
+    }
+
+    .logout img {
+      width: 25px;
+      height: 25px;
+      cursor: pointer;
+    }
+
+    .calendar {
+      background-color: #ffffff;
+      border-radius: 10px;
+      padding: 15px;
+      width: 100%;
+      max-width: 500px;
+    }
+
+    .current-date {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .icons {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .weeks,
+    .days {
+      display: flex;
+      justify-content: space-around;
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .weeks li,
+    .days li {
+      width: calc(100% / 7);
+      text-align: center;
+    }
+
+    .weeks li {
+      font-weight: bold;
+    }
+
+    .material-symbols-rounded {
+      font-family: 'Material Icons Round';
+      font-size: 24px;
+      cursor: pointer;
+    }

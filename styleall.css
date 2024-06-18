@@ -1,0 +1,318 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+:root {
+--color-primary: #9bae8d;
+--color-highlight: rgb(243, 243, 243);
+--color-buttonbg: #dadebb;
+--color-text: #3b6653;
+}
+
+* {
+margin: 0px;
+padding: 0px;
+font-family: Poppins;
+}
+p {
+font-weight: 200;
+}
+
+h1 {
+font-weight: 700;
+}
+.container {
+display: flex;
+justify-content: space-evenly;
+height: 100vh;
+width: 100vw;
+}
+
+.formInformation {
+background-color: var(--color-highlight);
+height: 75%;
+width: 100%;
+margin: 46px 46px 46px 0px;
+padding: 12px;
+border-radius: 24px 24px 24px 24px;
+}
+
+span {
+font-weight: 300;
+}
+
+.welcomeInfo {
+text-align: center;
+}
+
+.welcomeInfo h1 {
+font-size: 2rem;
+color: #2a5944;
+margin-bottom: 8px;
+}
+
+.container p {
+font-size: 0.8rem;
+}
+
+.box {
+margin-top: 24px;
+margin-bottom: 24px;
+text-align: center;
+}
+
+.info {
+padding-left: 75px;
+padding-top: 16px;
+}
+
+input {
+height: 32px;
+width: 368px;
+padding: 2px 4px 2px 4px;
+border-radius: 8px;
+margin-bottom: 16px;
+border: 2px solid var(--color-text);
+}
+
+.button {
+border-radius: 14px;
+padding: 8px 60px 8px 60px;
+transition-duration: 0.4s;
+cursor: pointer;
+}
+
+.CTA {
+background-color: white;
+color: black;
+border: 2px solid var(--color-text);
+}
+
+.CTA:hover {
+background-color: var(--color-text);
+color: white;
+}
+
+#forgetPassword {
+margin-bottom: 12px;
+}
+
+#signup {
+margin-top: 12px;
+}
+
+
+
+/* Signup */
+
+.signup,
+.sign-upContainer p {
+  font-size: 0.8rem;
+}
+
+.signupbox {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  text-align: center;
+} 
+
+.info {
+  padding-left: 75px;
+  padding-top: 16px;
+}
+
+input {
+  height: 32px;
+  width: 368px;
+  padding: 2px 4px 2px 4px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  border: 2px solid var(--color-text);
+} 
+
+
+.signup {
+  display: flex;
+  justify-content: center;
+}
+.sign-upContainer {
+  background-color: var(--color-highlight);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 480px;
+  height: 476px;
+  padding: 34px 20px 34px 20px;
+  margin: 6% 10% 10% 10%;
+  border-radius: 24px;
+}
+.sign-upContainer form .info {
+  padding-left: 0px;
+} 
+
+
+
+/* Homepage */
+
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color: #dadebb;
+    color: #3b6653;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;            
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+}
+
+.pomodoro img {
+    height: 40px;
+    width: auto;
+
+}
+
+.section {
+display: flex;
+justify-content: center;
+margin: 0px;
+height: 60px;
+width: 100%;
+background-color: var(--color-buttonbg);
+color: white;
+overflow: none;
+align-items: center;
+gap: 50px;
+}
+
+.section a {
+display: block;
+background-color: var(--color-buttonbg);
+color: var(--color-text);
+
+padding: 16px 44px 16px 44px;
+font-size: large;
+text-decoration: none;
+}
+
+.section a:active {
+background-color: var(--color-buttonbg);
+color: var(--color-text);
+}
+
+.section a:hover:not(.active) {
+background-color: var(--color-buttonbg);
+color: #3b6653;
+border-radius: 4px;
+}
+
+.links {
+display: flex;
+}
+
+.logo {
+width: 200px;
+height: 50px;
+display: flex;
+align-items: right;
+}
+
+.logout {
+display: flex;
+width: 25px;
+height: 25px;
+}
+
+.logout button {
+display: flex;
+width: 50px;
+height: 50px;
+border: none;
+border-radius: 10px;
+}
+.todolist{
+width: 50%;
+}
+
+.graph{
+width:50%;
+
+}
+.chart-heading {
+  font-family: "Rubik", sans-serif;
+  color: #023047;
+  text-transform: uppercase;
+  font-size: 24px;
+  text-align: center;
+}
+
+.chart-container {
+  width: 200px;
+}
+
+.programming-stats {
+  font-family: "Rubik", sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin: 0 auto;
+  width: fit-content;
+  box-shadow: 0 4px 12px -2px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  padding: 8px 32px;
+  color: #023047;
+  transition: all 400ms ease;
+}
+
+.programming-stats:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 16px -7px rgba(0, 0, 0, 0.3);
+}
+
+.programming-stats .details ul {
+  list-style: none;
+  padding: 0;
+}
+
+.programming-stats .details ul li {
+  font-size: 16px;
+  margin: 12px 0;
+  text-transform: uppercase;
+}
+
+.programming-stats .details .percentage {
+  font-weight: 700;
+  color: #e63946;
+}
+
+/* Calendar */
+
+:root {
+  --bs-success-rgb: 71, 222, 152 !important;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: Apple Chancery, cursive;
+}
+
+.btn-info.text-light:hover,
+.btn-info.text-light:focus {
+  background: #000;
+}
+table, tbody, td, tfoot, th, thead, tr {
+  border-color: #ededed !important;
+  border-style: solid;
+  border-width: 1px !important;
+}
+
+
+

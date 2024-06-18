@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+:root {
+    --color-primary: #9bae8d;
+    --color-buttonbg: #dadebb;
+    --color-text: #3b6653;
+}
+
+body {
+    background-color: #f0f0f0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-buttonbg);
+    color: var(--color-text);
+    padding: 10px 20px;
+}
+
+.section .logo img {
+    height: 40px;
+}
+
+.links a {
+    text-decoration: none;
+    color: var(--color-text);
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.links a:hover {
+    background-color: #ccc;
+    border-radius: 4px;
+}
+
+.logout img {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+h1, h2 {
+    text-align: center;
+    color: var(--color-text);
+}
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.label {
+    font-size: 20px;
+    font-weight: bold;
+    align-self: center;
+}
+
+.timer {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timer p {
+    margin: 0;
+}
+
+.btn {
+    width: 100px;
+    height: 50px;
+    font-size: 18px;
+    background-color: var(--color-buttonbg);
+    color: var(--color-text);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #ccc;
+}

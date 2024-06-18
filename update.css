@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+:root {
+  --color-primary: #9bae8d;
+  --color-highlight: rgb(243, 243, 243);
+  --color-buttonbg: #dadebb;
+  --color-text: #3b6653;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Poppins;
+}
+p {
+  font-weight: 200;
+}
+h1 {
+  font-weight: 700;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #dadebb;
+  color: #3b6653;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.links a {
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #3b6653;
+}
+
+.logout img {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.calendar {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 100%;
+  max-width: 800px;
+}
+
+.container,.updateContainer p {
+  font-size: 0.8rem;
+}
+
+.box {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.formInformation .info {
+  padding-left: 75px;
+  padding-top: 16px;
+}
+
+input {
+  height: 32px;
+  width: 368px;
+  padding: 2px 4px 2px 4px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  border: 2px solid var(--color-text);
+}
+
+
+.button {
+  border-radius: 14px;
+  padding: 8px 60px 8px 60px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.CTA {
+  background-color: white;
+  color: black;
+  border: 2px solid var(--color-text);
+}
+
+.CTA:hover {
+  background-color: var(--color-text);
+  color: white;
+}
+
+.updateContainer {
+  background-color: var(--color-highlight);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 480px;
+  height: 476px;
+  padding: 34px 20px 34px 20px;
+  margin: 6% 10% 10% 10%;
+  border-radius: 24px;
+}
+.updateContainer form info {
+  padding-left: 0px;
+}
+
+
+
+

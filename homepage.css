@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+:root {
+    --color-primary: #9bae8d;
+    --color-buttonbg: #dadebb;
+    --color-text: #3b6653;
+}
+
+body {
+    background-color: #f0f0f0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logout img {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #dadebb;
+  color: #3b6653;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+.links a {
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #3b6653;
+}
+
+  
+  .logo {
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: right;
+  }
+  
+  .logout {
+    display: flex;
+    width: 25px;
+    height: 25px;
+  }
+  
+  .logout button {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+  }
+
+
+    .box{
+      width: 200px;
+      height: 200px;
+      border: 10px solid grey;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+       background: white; 
+       border-radius: 10px;
+    } 
+    
+    .btn
+    {
+     padding: 10px 60px;
+    background:#dadebb;
+    color:  #3b6653;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 30px;
+}
+
+.popup
+{
+    width:400px;
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+    border: 3px solid gray;
+    gap: 10px;
+
+    position: absolute;
+    top: 0%;
+    left:50%;
+    transform: translate(-50%,-50%) scale(0.1);
+    text-align: center;
+    visibility: hidden;
+    color: var(--color-text);
+    transition: transform 0.4s,top 0.4s;
+    
+}
+
+
+.open-popup
+{
+    visibility: visible ;
+    top: 50%;
+    transform: translate(-50%,-50%) scale(1); 
+}
+
+.popup img{
+width: 250px;
+height: 50px;
+margin-top: -30px;
+
+}
+
+.popup h2{
+font-size: 20px;
+font-weight: 500;
+margin: 30px 0 10px;
+color: var(--color-text);
+}
+
+.popup button{
+width: 300px;
+padding: 5px;
+background:var(--color-buttonbg);
+color: var(--color-text);
+border: 0;
+outline: none;
+font-size: 18px;
+border-radius: 20px;
+cursor: pointer;
+}
+
+  input {
+    height: 35px;
+    width: 200px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    border: 0;
+
+ 
+    border-radius: 20px;
+    border: 3px solid gray;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+ 
+ 
+  }
+
+
+
+
+  .container {
+      background-color: #dadebb;
+      color: #3b6653;
+      padding: 10px;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-left: 10px;
+      margin-right: 10px;
+      width: 50%;
+    
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      margin-top: 10px;
+  }
+  .pomodoro img{
+       height: 40px; 
+       width: auto;
+       
+  }
+
+  .todolist{
+    width: 50%;
+  }
+
+  .graph{
+    width:50%;
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+  .chart-heading {
+    font-family: "Rubik", sans-serif;
+    color: #023047;
+    text-transform: uppercase;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .chart-container {
+    width: 200px;
+  }
+  
+  .programming-stats {
+    font-family: "Rubik", sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin: 0 auto;
+    width: fit-content;
+    box-shadow: 0 4px 12px -2px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    padding: 8px 32px;
+    color: #023047;
+    transition: all 400ms ease;
+  }
+  
+  .programming-stats:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 16px -7px rgba(0, 0, 0, 0.3);
+  }
+  
+  .programming-stats .details ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .programming-stats .details ul li {
+    font-size: 16px;
+    margin: 12px 0;
+    text-transform: uppercase;
+  }
+  
+  .programming-stats .details .percentage {
+    font-weight: 700;
+    color: #e63946;
+  }
